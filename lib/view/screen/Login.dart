@@ -2,12 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hisab/provider/auth_provider.dart';
 import 'package:hisab/utils/app_constant.dart';
-import 'package:hisab/view/screen/homepage.dart';
-import 'package:hisab/view/screen/profile.dart';
 import 'package:hisab/view/widgets/app_header.dart';
 import 'package:hisab/view/widgets/divider.dart';
 import 'package:provider/provider.dart';
-
 import '../widgets/customBottomNavBar.dart';
 import '../widgets/custom_text_from_field.dart';
 

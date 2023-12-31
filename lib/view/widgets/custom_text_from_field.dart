@@ -8,10 +8,10 @@ class CustomTextFormField extends StatelessWidget {
   final dynamic yourFieldText;
   final dynamic keyBoardType;
   final dynamic hintText;
-  final dynamic onchanged;
+  final dynamic onChanged;
   const CustomTextFormField({
     super.key,
-    required this.nameOfController, required this.yourFieldText, required this.keyBoardType,required this.hintText, this.onchanged,
+    required this.nameOfController, required this.yourFieldText, required this.keyBoardType,required this.hintText, this.onChanged,
   }) ;
 
 
@@ -36,7 +36,8 @@ class CustomTextFormField extends StatelessWidget {
               child: Padding(
                 padding:EdgeInsets.only(top: 13.h),
                 child: TextFormField(
-                  onChanged: onchanged,
+                  style: TextStyle(color: AppConst.appInputTextColor),
+                  onChanged: onChanged,
                   keyboardType: keyBoardType,
                   autovalidateMode: AutovalidateMode.onUserInteraction,
                   controller: nameOfController,

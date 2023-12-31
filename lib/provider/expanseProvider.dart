@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart';
+
 import '../data/model/Expanse.dart';
 import 'package:flutter/material.dart';
 //
@@ -116,33 +118,8 @@ import 'package:flutter/material.dart';
 // }
 
 class ExpenseProvider with ChangeNotifier {
-  // final TextEditingController categoryName = TextEditingController();
-  // final TextEditingController addBalance = TextEditingController();
-  ///
-  // final List<Earning> _dailyEarnings = [];
-  // final List<Expense> _dailyExpanse=[];
-  // List<Expense> get totalExpanse=> _dailyExpanse;
-  //
-  // List<Earning> get totalAmount => _dailyEarnings;
-  //
-  // void addEarning(Earning addAmount) {
-  //     _dailyEarnings.add(addAmount);
-  //   notifyListeners();
-  // }
-  //
-  // double getAddedMoney() {
-  //   return _dailyEarnings.fold(0.0, (total, earning) => total + earning.amount);
-  // }
-  //
-  // void addExpanse(Expense expense){
-  //   _dailyEarnings.add(expense);
-  //   notifyListeners();
-  // }
-  // double getTotalExpanse(){
-  //   return _dailyExpanse.fold(0.0, (total, expanse) => total +expanse.amount);
-  // }
- ///
 
+String currentMonth=DateFormat('MMMM').format(DateTime.now());
   final List<Earning> _dailyEarnings = [];
   final List<Expense> _dailyExpenses = [];
   List<Earning> get totalEarnings => _dailyEarnings;

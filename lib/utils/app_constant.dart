@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class AppConst{
   static Color appBackgroundColor=const Color(0xff212427);
   static Color appTFFBorderColor=const Color(0xFF2B2F33);
+  static Color appInputTextColor=const Color(0xFFF3DEDE);
   static TextStyle appTFFStyle=TextStyle(
     color: const Color(0xffffffff),
     fontWeight: FontWeight.w600,
