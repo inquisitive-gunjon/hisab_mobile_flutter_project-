@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "149836170075",
+    "project_id": "hisab-37c45",
+    "storage_bucket": "hisab-37c45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149836170075:android:46ebeeaa7e625f60af907e",
+        "android_client_info": {
+          "package_name": "com.example.hisab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149836170075-sb087jnrf2pt7gmv6qhcqg1l2d1aa3mi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hisab",
+            "certificate_hash": "6679672cf420b6128d3fce8d1ad522fb15e4e9ae"
+          }
+        },
+        {
+          "client_id": "149836170075-vudr3rpuf3oi7bgu0l21k5v931ornmtc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmJx93yuSeWIN3yuMM4epYec0soX1K2Ks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149836170075-vudr3rpuf3oi7bgu0l21k5v931ornmtc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "149836170075-1htlrm15ll6h82v1m8ac5h2fv3k4h119.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hisab.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
