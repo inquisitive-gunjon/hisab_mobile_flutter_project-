@@ -51,22 +51,22 @@ dev_dependencies:
     sdk: flutter
   flutter_launcher_icons: ^0.13.1
 flutter_icons:
-  image_path: "assets/appsMainIcon/appIcon.png"
+  image_path: "assets/apps_main_icon/appIcon.png"
   android: true
   ios: true
 
-  flutter_native_splash:
-    color : "#FFFFFF"
-    color_dark : "#272727"
-    image : assets/appsMainIcon/app_ss.png
-    image_dark : assets/appsMainIcon/app_ss.png
-    android_12:
-      image : assets/appsMainIcon/app_ss.png
-      icon_background_color : "#FFFFFF"
-      image_dark : assets/appsMainIcon/app_ss.png
-      icon_background_color_dark : "#272727"
-    ios: true
-    web: false
+#  flutter_native_splash:
+#    color : "#FFFFFF"
+#    color_dark : "#272727"
+#    image : assets/apps_main_icon/app_ss.png
+#    image_dark : assets/apps_main_icon/app_ss.png
+#    android_12:
+#      image : assets/apps_main_icon/app_ss.png
+#      icon_background_color : "#FFFFFF"
+#      image_dark : assets/apps_main_icon/app_ss.png
+#      icon_background_color_dark : "#272727"
+#    ios: true
+#    web: false
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -89,7 +89,20 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/icon/
-    - assets/appsMainIcon/
+    - assets/apps_main_icon/
+
+flutter_native_splash:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/apps_main_icon/app_ss.png
+    image_dark: assets/apps_main_icon/app_ss.png
+    android_12:
+      image: assets/apps_main_icon/app_ss.png
+      icon_background_color: "#FFFFFF"
+      image_dark: assets/apps_main_icon/app_ss.png
+      icon_background_color_dark: "#272727"
+    ios: true
+    web: false
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
