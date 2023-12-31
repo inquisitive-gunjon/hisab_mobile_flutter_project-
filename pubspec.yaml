@@ -43,7 +43,7 @@ dependencies:
   firebase_analytics: ^10.7.4
   google_sign_in: ^6.1.6
   curved_navigation_bar: ^1.0.3
-  fl_chart: ^0.65.0
+#  fl_chart: ^0.65.0
   intl: ^0.19.0
   flutter_native_splash: ^2.3.7
 dev_dependencies:
@@ -58,12 +58,12 @@ flutter_icons:
   flutter_native_splash:
     color : "#FFFFFF"
     color_dark : "#272727"
-    image : assets/appsMainIcon/appIcon.png
-    image_dark : assets/appsMainIcon/appIcon.png
+    image : assets/appsMainIcon/app_ss.png
+    image_dark : assets/appsMainIcon/app_ss.png
     android_12:
-      image : assets/appsMainIcon/appIcon.png
+      image : assets/appsMainIcon/app_ss.png
       icon_background_color : "#FFFFFF"
-      image_dark : assets/appsMainIcon/appIcon.png
+      image_dark : assets/appsMainIcon/app_ss.png
       icon_background_color_dark : "#272727"
     ios: true
     web: false
